@@ -1,13 +1,14 @@
 import express from "express";
-//import { app as VolunteerRouter } from "./routes/volunteers.route";
-//import { app as OpportunitiesRouter } from "./routes/opportunities.route";
-//import { app as UsersRouter } from "./routes/users.route";
+
+import { app as OrdersRouter } from "./routes/drinks.route";
+import { app as QueueRouter } from "./routes/queue.route";
+
 let app = express();
 app.use(express.json());
 
-//app.use("/volunteers", VolunteerRouter);
-//app.use("/opportunities", OpportunitiesRouter);
-//app.use("/users", UsersRouter);
+app.use("/drinks", OrdersRouter);
+app.use("/queue", QueueRouter);
+
 app.get("/", (req, res) => {
 	res.send("Hello mom!");
 });
