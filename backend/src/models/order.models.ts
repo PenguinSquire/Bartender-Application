@@ -1,16 +1,19 @@
 export class Order {
-	orderID: number;
-	drinkId: number;
+	queueID: number;
+	drinkID: number;
+	drinkName: string
 	customerName: string;
     totalCost: number;
 	constructor(
-		orderID: number,
-		drinkId: number,
+		queueID: number,
+		drinkID: number,
+		drinkName: string,
 		customerName: string,
         totalCost: number
 	) {
-		this.orderID = orderID;
-		this.drinkId = drinkId;
+		this.queueID = queueID;
+		this.drinkID = drinkID;
+		this.drinkName = drinkName;
 		this.customerName = customerName;
         this.totalCost = totalCost;
 	}

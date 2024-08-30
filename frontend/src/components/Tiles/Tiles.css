@@ -1,0 +1,20 @@
+div {
+    margin: 2px 0px;
+}
+.drinkName {
+    font-size: 20px;
+}
+.drinkCost {
+    font-size: 12px;
+}
+.drinkDescription {
+    font-size: 13px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+
+.queue {
+    margin: 0 auto;
+    margin-bottom: 2px;
+    max-width: 350px;
+  }

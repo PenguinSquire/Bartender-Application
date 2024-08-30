@@ -4,20 +4,20 @@ import './Header.css';
 
 function Header() {
     return (
-        <nav class="navbar navbar-expand-lg">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a to="/" class="nav-link">Home</a>
+        <nav className="navbar navbar-expand-sm">
+            <div className="collapse navbar-collapse">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link">Home</Link>
                     </li>
-                    <li class="nav-item">
-                        <a to="/volunteer" class="nav-link">Order a Drink</a>
+                    <li className="nav-item">
+                        <Link to="/order" className="nav-link">Order a Drink</Link>
                     </li>
                 </ul>
             </div>
-            <ul class="navbar-nav">
-                <li class="nav-item right">
-                    <a to="/opportunity " class="nav-link">Queue</a>
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                    <Link to="/queue " className="nav-link">Queue</Link>
                 </li>
             </ul>
 

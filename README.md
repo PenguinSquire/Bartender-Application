@@ -27,7 +27,9 @@ Quick Start Instructions
         into your browser and you will get the results.
 </td>
     <td>
-        Lorem ipsum ...
+        #Run npm start
+
+        npm start
     </td>
  </tr>
 </table>
