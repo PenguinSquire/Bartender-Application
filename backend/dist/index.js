@@ -4,14 +4,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-//import { app as VolunteerRouter } from "./routes/volunteers.route";
-//import { app as OpportunitiesRouter } from "./routes/opportunities.route";
-//import { app as UsersRouter } from "./routes/users.route";
+const drinks_route_1 = require("./routes/drinks.route");
+const queue_route_1 = require("./routes/queue.route");
 let app = (0, express_1.default)();
 app.use(express_1.default.json());
-//app.use("/volunteers", VolunteerRouter);
-//app.use("/opportunities", OpportunitiesRouter);
-//app.use("/users", UsersRouter);
+app.use("/drinks", drinks_route_1.app);
+app.use("/queue", queue_route_1.app);
 app.get("/", (req, res) => {
     res.send("Hello mom!");
 });

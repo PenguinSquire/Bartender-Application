@@ -1,0 +1,13 @@
+.nav-link:hover {
+    background-color: lightblue;
+    color: #3a3a3a;
+    border-radius: 4px;
+  }
+
+.navbar-nav {
+    margin: 0px 10px;
+}
+
+.nav-link {
+    font-size: 20px;
+  }

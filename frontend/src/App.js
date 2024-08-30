@@ -1,7 +1,7 @@
 import './App.css';
-//import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import Layout from "./pages/Layout";
+import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 //import Volunteer from "./pages/Volunteer";
 //import Opportunity from "./pages/Opportunity";
