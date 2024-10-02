@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(
 	cors({
-		origin: "http://localhost:3000", // Allow only this origin
+		origin: "http://localhost:4030", // Allow only this origin
 	})
 );
 
